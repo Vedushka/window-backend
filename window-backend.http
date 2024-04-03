@@ -1,0 +1,6 @@
+@window_backend_HostAddress = http://localhost:5196
+
+GET {{window_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
