@@ -7,7 +7,7 @@ using window_backend.Services.Interfaces;
 namespace window_backend.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WindowController : ControllerBase
     {
         private readonly ILogger<WindowController> _logger;
